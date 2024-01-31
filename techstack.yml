@@ -1,0 +1,2424 @@
+repo_name: dhqcz/chaskiq
+report_id: 619fea9ca9a3f0956ecaff7cd2e6bd5d
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-31T14:20:49+00:00'
+requested_by: michelson
+provider: github
+branch: main
+detected_tools_count: 177
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/dhqcz/chaskiq
+  detection_source: Repo Metadata
+- name: HAML
+  description: HTML Abstraction Markup Language - A Markup Haiku
+  website_url: http://haml.info/
+  version: 6.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1169/Picture_2.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson
+  last_updated_on: 2018-05-29 06:25:51.000000000 Z
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/dhqcz/chaskiq
+  detection_source: Repo Metadata
+- name: Mustache
+  description: Logic-less templates
+  website_url: http://mustache.github.io/
+  version: 1.1.1
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1142/197655.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2021-05-31 05:38:52.000000000 Z
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  version: 3.2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Repo Metadata
+  last_updated_by: Miguel Michelson
+  last_updated_on: 2018-05-29 06:25:51.000000000 Z
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/dhqcz/chaskiq
+  detection_source: Repo Metadata
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-08-04 05:15:58.000000000 Z
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2020-11-04 03:23:54.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Luis Mancilla Ávila
+  last_updated_on: 2020-04-26 21:34:31.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2020-10-25 04:39:42.000000000 Z
+- name: Rails
+  description: Web development that doesn't hurt
+  website_url: http://rubyonrails.org/
+  version: 7.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/990/x57_Lorv.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-10-16 19:32:02.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: app/javascript/packages/twilio/CallList.jsx
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-09-05 20:55:16.000000000 Z
+- name: React Hot Loader
+  description: Tweak React components in real time
+  website_url: http://gaearon.github.io/react-hot-loader/
+  version: 4.13.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-04-22 00:37:02.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 5.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-04-22 00:37:02.000000000 Z
+- name: Redux
+  description: Predictable state container for JavaScript apps
+  website_url: https://redux.js.org/
+  version: 4.2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/4074/13142323.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2021-06-07 00:09:55.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2020-10-25 04:39:42.000000000 Z
+- name: Tailwind CSS
+  description: A utility-first CSS framework for rapid UI development
+  website_url: https://tailwindcss.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-03-15 13:11:40.000000000 Z
+- name: react-beautiful-dnd
+  description: Beautiful and accessible drag and drop for lists with React (by Atlassian)
+  website_url: https://github.com/atlassian/react-beautiful-dnd
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/9878/react-beautiful-dnd-logo.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-04-22 00:37:02.000000000 Z
+- name: redux-thunk
+  description: Thunk middleware for Redux
+  website_url: https://github.com/gaearon/redux-thunk
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/5448/13142323.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2021-06-07 00:09:55.000000000 Z
+- name: Amazon S3
+  description: Store and retrieve any amount of data, at any time, from anywhere on
+    the web
+  website_url: http://aws.amazon.com/s3
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Cloud Storage
+  image_url: https://img.stackshare.io/service/25/amazon-s3.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson
+  last_updated_on: 2018-05-29 06:25:51.000000000 Z
+- name: GraphQL
+  description: A data query language and runtime
+  website_url: http://graphql.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Query Languages
+  image_url: https://img.stackshare.io/service/3820/12972006.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-10-16 22:50:51.000000000 Z
+- name: GraphiQL
+  description: An in-browser IDE for exploring GraphQL
+  website_url: https://github.com/graphql/graphiql
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/7879/GraphiQL.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-10-16 22:50:51.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson
+  last_updated_on: 2018-05-29 06:25:51.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  version: 4.8.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-06-10 03:16:38.000000000 Z
+- name: Sidekiq
+  description: Simple, efficient background processing for Ruby
+  website_url: http://sidekiq.org/
+  version: 7.1.6
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Background Processing
+  image_url: https://img.stackshare.io/service/1078/4b7277462dadad85454ab427ce3f0ca7.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-10-12 17:43:12.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.17.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: babel.config.js
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-02-18 00:38:40.000000000 Z
+- name: Brakeman
+  description: A static analysis security vulnerability scanner for Ruby on Rails
+    applications
+  website_url: http://brakemanscanner.org/
+  version: 6.0.1
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/6577/7b894961369b7c73e2a32f11f845e049_400x400.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2021-05-31 05:38:52.000000000 Z
+- name: Bugsnag
+  description: Bugsnag provides production error monitoring and management for front-end,
+    mobile and back-end applications
+  website_url: https://www.bugsnag.com
+  open_source: false
+  hosted_saas: true
+  category: Monitoring
+  sub_category: Exception Monitoring
+  image_url: https://img.stackshare.io/service/150/square-logo-small-midnight.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2021-05-31 05:38:52.000000000 Z
+- name: Cypress
+  description: When testing is easy, developers build better things faster and with
+    confidence.
+  website_url: https://www.cypress.io/
+  version: 12.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/9231/default_66c5c1a197dcd0232e41e4ab6299d119b4e165b3.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2021-05-31 05:38:52.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/dhqcz/chaskiq
+  detection_source: Repo Metadata
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2020-11-04 03:23:54.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2020-10-25 04:39:42.000000000 Z
+- name: Esbuild
+  description: An extremely fast JavaScript bundler
+  website_url: https://esbuild.github.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/25166/default_2dcc9286a150737a14625d18f6f93747f72be430.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-04-14 14:34:27.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/dhqcz/chaskiq
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/.github/workflows/anchore-analysis.yml
+  detection_source: ".github/workflows/anchore-analysis.yml"
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-04-13 22:41:18.000000000 Z
+- name: Puma
+  description: A Modern, Concurrent Web Server for Ruby
+  website_url: http://puma.io/
+  version: 6.4.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1055/favicon.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson
+  last_updated_on: 2018-05-29 06:25:51.000000000 Z
+- name: RSpec
+  description: Behaviour Driven Development for Ruby
+  website_url: https://rspec.info/
+  version: 6.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2539/logo.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson
+  last_updated_on: 2018-05-29 06:25:51.000000000 Z
+- name: Rails Spring
+  description: Rails application preloader
+  website_url: https://github.com/rails/spring
+  version: 4.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Rails Testing
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-10-16 19:32:02.000000000 Z
+- name: RuboCop
+  description: A Ruby static code analyzer, based on the community Ruby style guide
+  website_url: http://batsov.com/rubocop/
+  version: 1.57.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/2643/rubocop.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson
+  last_updated_on: 2018-05-29 06:25:51.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2020-10-25 04:39:42.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: yarn.lock
+  last_updated_by: Miguel Michelson
+  last_updated_on: 2018-05-29 06:25:51.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2020-10-25 04:39:42.000000000 Z
+- name: rollup
+  description: The next-generation JavaScript module bundler
+  website_url: http://rollupjs.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/4423/zE8RTn9E_400x400.jpg
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-08-04 05:15:58.000000000 Z
+- name: Heroku
+  description: Build, deliver, monitor and scale web apps and APIs with a trail blazing
+    developer experience.
+  website_url: https://www.heroku.com
+  open_source: false
+  hosted_saas: true
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/133/3wgIDj3j.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Procfile
+  detection_source: Procfile
+  last_updated_by: michelson
+  last_updated_on: 2019-12-19 05:12:04.000000000 Z
+- name: Mapbox
+  description: Design and publish beautiful maps
+  website_url: https://www.mapbox.com/
+  open_source: true
+  hosted_saas: true
+  category: Application Utilities
+  sub_category: Mapping APIs
+  image_url: https://img.stackshare.io/service/1640/cvosutVr_400x400.jpg
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-08-04 05:15:58.000000000 Z
+- name: Poli
+  description: 'An easy-to-use SQL reporting application '
+  website_url: https://github.com/shzlw/poli
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Analytics
+  sub_category: Business Intelligence
+  image_url: https://img.stackshare.io/service/11232/no-img-open-source.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2020-10-25 04:39:42.000000000 Z
+- name: Stripe
+  description: Payments for developers
+  website_url: https://stripe.com
+  open_source: false
+  hosted_saas: true
+  category: Payments
+  sub_category: Payment Services
+  image_url: https://img.stackshare.io/service/97/eW6tXeq3.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-08-04 05:15:58.000000000 Z
+- name: Twilio SendGrid
+  description: Email Delivery. Simplified.
+  website_url: http://sendgrid.com
+  open_source: false
+  hosted_saas: true
+  category: Communications
+  sub_category: Transactional Email
+  image_url: https://img.stackshare.io/service/43/kQ_6nwmP.jpg
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/config/environments/production.rb
+  detection_source: config/environments/production.rb
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-03-02 12:21:44.000000000 Z
+- name: Alpine Linux
+  description: Security-oriented, lightweight Linux distribution based on musl libc
+    and busybox
+  website_url: https://www.alpinelinux.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-02-19 16:18:09.000000000 Z
+- name: Bootsnap
+  description: Boot large ruby/rails apps faster, by Shopify
+  website_url: https://github.com/shopify/bootsnap
+  version: 1.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Ruby Utilities
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2021-05-31 05:38:52.000000000 Z
+- name: Chaskiq
+  description: An open source alternative to Intercom, Drift and others
+  website_url: https://chaskiq.io/
+  license: AGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Support, Sales, and Marketing
+  sub_category: Customer Support Chat
+  image_url: https://img.stackshare.io/service/11668/chaskiq.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: michelson
+  last_updated_on: 2020-01-02 16:33:58.000000000 Z
+- name: Devise
+  description: Flexible authentication solution for Rails with Warden
+  website_url: https://github.com/plataformatec/devise
+  version: 4.9.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: User Management and Authentication
+  image_url: https://img.stackshare.io/service/1432/devise.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-02-08 02:42:18.000000000 Z
+- name: Gravatar
+  description: 'A service for providing globally unique avatars '
+  website_url: https://gravatar.com
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4983/8BKnRUXg_normal.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2020-11-04 03:23:54.000000000 Z
+- name: JSON Web Token
+  description: A JSON-based open standard for creating access tokens
+  website_url: http://jwt.io/
+  version: 2.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: User Management and Authentication
+  image_url: https://img.stackshare.io/service/6417/jwt-icon.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson
+  last_updated_on: 2018-05-29 06:25:51.000000000 Z
+- name: Lerna
+  description: A tool for managing JavaScript projects
+  website_url: https://lerna.js.org/
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/6207/OwqAUSQi_400x400.jpg
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-02-18 00:38:40.000000000 Z
+- name: MiniMagick
+  website_url: https://github.com/minimagick/minimagick
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3924/2532832.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2021-05-31 05:38:52.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel michelson
+  last_updated_on: 2022-05-24 20:13:48.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/dhqcz/chaskiq
+  detection_source: Repo Metadata
+- name: Timezone
+  description: Keep track of where and when your team is
+  website_url: https://timezone.io/
+  open_source: false
+  hosted_saas: false
+  category: Collaboration
+  sub_category: Time Tracking
+  image_url: https://img.stackshare.io/service/9576/default_7b6755d014b3e39c3149d5a18bc3a75d3817f421.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2021-05-31 05:38:52.000000000 Z
+- name: actioncable
+  website_url: https://github.com/rails/rails/tree/master/actioncable
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8738/no-img-open-source.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-04-22 00:37:02.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.25.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-02-08 02:42:18.000000000 Z
+- name: husky
+  website_url: https://github.com/typicode/husky
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-02-18 00:38:40.000000000 Z
+- name: i18next
+  description: Internationalization-framework written in and for JavaScript
+  website_url: https://www.i18next.com/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Translation Service
+  image_url: https://img.stackshare.io/service/4747/default_82286a88bf01c80539ebd1d6dbea1b25df8af16d.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-01-13 11:58:23.000000000 Z
+- name: "@babel/cli"
+  description: Babel command line
+  package_url: https://www.npmjs.com/@babel/cli
+  version: 7.17.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15848/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-08-04 05:15:58.000000000 Z
+- name: "@babel/core"
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/@babel/core
+  version: 7.17.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-08-04 05:15:58.000000000 Z
+- name: "@babel/node"
+  description: Babel command line
+  package_url: https://www.npmjs.com/@babel/node
+  version: 7.17.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16153/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-04-14 14:34:27.000000000 Z
+- name: "@babel/parser"
+  description: A JavaScript parser
+  package_url: https://www.npmjs.com/@babel/parser
+  version: 7.15.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16932/default_3823aba25646a3f105cc15ee9df24fdf78972314.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-08-04 05:15:58.000000000 Z
+- name: "@babel/plugin-transform-react-jsx"
+  description: Turn JSX into React function calls
+  package_url: https://www.npmjs.com/@babel/plugin-transform-react-jsx
+  version: 7.17.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16556/default_50be6a65e5f7390c20dda2f19371abc1271db012.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-04-22 00:37:02.000000000 Z
+- name: "@babel/plugin-transform-runtime"
+  description: Externalise references to helpers and builtins
+  package_url: https://www.npmjs.com/@babel/plugin-transform-runtime
+  version: 7.17.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15952/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-08-04 05:15:58.000000000 Z
+- name: "@babel/plugin-transform-typescript"
+  description: Transform TypeScript into ES.next
+  package_url: https://www.npmjs.com/@babel/plugin-transform-typescript
+  version: 7.16.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17950/default_e0b07170ab7d7ea66954ff35fdeaae5255c4c0aa.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-08-04 05:15:58.000000000 Z
+- name: "@babel/preset-env"
+  description: A Babel preset for each environment
+  package_url: https://www.npmjs.com/@babel/preset-env
+  version: 7.17.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-01-13 15:44:42.000000000 Z
+- name: "@babel/preset-react"
+  description: Babel preset for all React plugins
+  package_url: https://www.npmjs.com/@babel/preset-react
+  version: 7.16.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15890/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-04-22 00:37:02.000000000 Z
+- name: "@babel/preset-typescript"
+  description: Babel preset for TypeScript
+  package_url: https://www.npmjs.com/@babel/preset-typescript
+  version: 7.16.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16084/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-01-13 15:44:42.000000000 Z
+- name: "@babel/runtime"
+  description: Babel's modular runtime helpers
+  package_url: https://www.npmjs.com/@babel/runtime
+  version: 7.17.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15934/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-08-04 05:15:58.000000000 Z
+- name: "@emotion/styled"
+  description: Styled API for emotion
+  package_url: https://www.npmjs.com/@emotion/styled
+  version: 11.10.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16702/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-04-22 00:37:02.000000000 Z
+- name: "@rollup/plugin-node-resolve"
+  description: Locate and bundle third-party dependencies in node_modules
+  package_url: https://www.npmjs.com/@rollup/plugin-node-resolve
+  version: 13.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17836/default_abcc2eea82e62d338a749f334647866df76198b8.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-04-22 00:37:02.000000000 Z
+- name: "@tailwindcss/typography"
+  description: A Tailwind CSS plugin for automatically styling plain HTML content
+    with beautiful typographic defaults
+  package_url: https://www.npmjs.com/@tailwindcss/typography
+  version: 0.5.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-03-15 13:11:40.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 18.0.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-04-22 00:37:02.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 17.0.16
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-04-22 00:37:02.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 2.34.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-08-04 05:15:58.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 5.23.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-08-04 05:15:58.000000000 Z
+- name: babel-eslint
+  description: Custom parser for ESLint
+  package_url: https://www.npmjs.com/babel-eslint
+  version: 10.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15803/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-08-04 05:15:58.000000000 Z
+- name: babel-plugin-lodash
+  description: Modular Lodash builds without the hassle
+  package_url: https://www.npmjs.com/babel-plugin-lodash
+  version: 3.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16379/default_c47f6a56d74fae4d4404d77067b2fa35da6f1924.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-08-04 05:15:58.000000000 Z
+- name: babel-plugin-macros
+  description: Allows you to build compile-time libraries
+  package_url: https://www.npmjs.com/babel-plugin-macros
+  version: 2.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17191/default_fbe883dfc6d978f82179fa11bdf634af1b6751fa.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-03-15 13:11:40.000000000 Z
+- name: eslint-config-standard
+  description: JavaScript Standard Style - ESLint Shareable Config
+  package_url: https://www.npmjs.com/eslint-config-standard
+  version: 14.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15872/default_e4668902f8489350db9b0fb228523a571ef05b26.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-08-04 05:15:58.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.26.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-12-06 15:28:57.000000000 Z
+- name: eslint-plugin-jsx-a11y
+  description: Static AST checker for accessibility rules on JSX elements
+  package_url: https://www.npmjs.com/eslint-plugin-jsx-a11y
+  version: 6.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15845/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-01-13 11:58:23.000000000 Z
+- name: eslint-plugin-node
+  description: Additional ESLint's rules for Node.js
+  package_url: https://www.npmjs.com/eslint-plugin-node
+  version: 11.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15874/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-04-14 14:34:27.000000000 Z
+- name: eslint-plugin-promise
+  description: Enforce best practices for JavaScript promises
+  package_url: https://www.npmjs.com/eslint-plugin-promise
+  version: 4.3.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15885/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-08-04 05:15:58.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-04-22 00:37:02.000000000 Z
+- name: eslint-plugin-standard
+  description: ESlint Plugin for the Standard Linter
+  package_url: https://www.npmjs.com/eslint-plugin-standard
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15884/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-08-04 05:15:58.000000000 Z
+- name: events
+  description: Node's event emitter for all engines
+  package_url: https://www.npmjs.com/events
+  version: 3.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16435/default_aa91da3cee4d961f0eea8ca5de77f399ec7ec794.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-08-04 05:15:58.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 7.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-02-18 00:38:40.000000000 Z
+- name: isomorphic-fetch
+  description: Isomorphic WHATWG Fetch API, for Node &amp; Browserify
+  package_url: https://www.npmjs.com/isomorphic-fetch
+  version: 2.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16185/default_b4f5b6f31c5ab1ffee4bacf20842cd41a8f2658d.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2020-11-04 03:23:54.000000000 Z
+- name: mapbox-gl
+  description: A WebGL interactive maps library
+  package_url: https://www.npmjs.com/mapbox-gl
+  version: 1.13.2
+  license: ICU
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18073/image.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-08-04 05:15:58.000000000 Z
+- name: minimist
+  description: Parse argument options
+  package_url: https://www.npmjs.com/minimist
+  version: 1.2.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15918/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-02-23 06:10:46.000000000 Z
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel michelson
+  last_updated_on: 2022-05-24 20:13:48.000000000 Z
+- name: moment-timezone
+  description: Parse and display moments in any timezone
+  package_url: https://www.npmjs.com/moment-timezone
+  version: 0.5.35
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16298/default_8b65a873fd3277d73483d6846fa38192391abf23.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel michelson
+  last_updated_on: 2022-05-24 20:13:48.000000000 Z
+- name: polished
+  description: A lightweight toolset for writing styles in Javascript
+  package_url: https://www.npmjs.com/polished
+  version: 3.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16665/default_ee69dab268e6a52104564fd4259549f5b48a25d4.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2020-11-04 03:23:54.000000000 Z
+- name: postcss-cssnext
+  description: Use tomorrow’s CSS syntax, today
+  package_url: https://www.npmjs.com/postcss-cssnext
+  version: 3.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16341/default_c47f6a56d74fae4d4404d77067b2fa35da6f1924.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-04-14 14:34:27.000000000 Z
+- name: postcss-loader
+  description: PostCSS loader for webpack
+  package_url: https://www.npmjs.com/postcss-loader
+  version: 4.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15876/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-04-14 14:34:27.000000000 Z
+- name: pretty-quick
+  description: Get Pretty Quick
+  package_url: https://www.npmjs.com/pretty-quick
+  version: 3.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16281/default_f130429ee56156823c8c6e94da6fb7aa07f07ba5.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2021-08-07 05:43:19.000000000 Z
+- name: prop-types
+  description: Runtime type checking for React props and similar objects
+  package_url: https://www.npmjs.com/prop-types
+  version: 15.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15843/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-08-04 05:15:58.000000000 Z
+- name: query-string
+  description: Parse and stringify URL query strings
+  package_url: https://www.npmjs.com/query-string
+  version: 6.14.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16244/default_380ae3d73e22c7ca1f42b96479bcd0095dabc0d3.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-02-18 00:38:40.000000000 Z
+- name: rc-tooltip
+  description: React Tooltip
+  package_url: https://www.npmjs.com/rc-tooltip
+  version: 4.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17780/default_552addbbff67ec0ef62ce1d229e112d14ca818f5.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-02-18 00:38:40.000000000 Z
+- name: react-bootstrap
+  description: Bootstrap 3 components built with React
+  package_url: https://www.npmjs.com/react-bootstrap
+  version: 0.32.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16383/default_92302d1bbf4c0f67b862869662b4f69002c94aad.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-04-22 00:37:02.000000000 Z
+- name: react-datepicker
+  description: A simple and reusable datepicker component for React
+  package_url: https://www.npmjs.com/react-datepicker
+  version: 2.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17239/default_183829c5079b84333a720d8590a328efc043ba0e.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-04-22 00:37:02.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-04-22 00:37:02.000000000 Z
+- name: react-hotkeys-hook
+  description: React hook for handling keyboard shortcuts
+  package_url: https://www.npmjs.com/react-hotkeys-hook
+  version: 3.4.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-04-22 00:37:02.000000000 Z
+- name: react-i18next
+  description: Internationalization for react done right
+  package_url: https://www.npmjs.com/react-i18next
+  version: 10.13.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17777/default_65e03f67ad735337587d736d5fbc87b538eccdf7.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-04-22 00:37:02.000000000 Z
+- name: react-markdown
+  description: Renders Markdown as React components
+  package_url: https://www.npmjs.com/react-markdown
+  version: 8.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17056/default_d17bbf7e4f3b102e29ff09c01b8165e7ba600319.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-04-22 00:37:02.000000000 Z
+- name: react-popper
+  description: React wrapper around Popper.js
+  package_url: https://www.npmjs.com/react-popper
+  version: 1.3.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17809/default_dc034f75f103514d23b4d1a7fe578415d63216ee.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-04-22 00:37:02.000000000 Z
+- name: react-redux
+  description: Official React bindings for Redux
+  package_url: https://www.npmjs.com/react-redux
+  version: 7.2.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15984/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-04-22 00:37:02.000000000 Z
+- name: react-router
+  description: A complete routing library for React
+  package_url: https://www.npmjs.com/react-router
+  version: 5.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16058/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-04-22 00:37:02.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 5.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-04-22 00:37:02.000000000 Z
+- name: react-select
+  description: A Select control built with and for ReactJS
+  package_url: https://www.npmjs.com/react-select
+  version: 4.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16452/default_d634bba6819a28b85a138b7ded782cadbfa6a482.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-04-22 00:37:02.000000000 Z
+- name: react-sortable-hoc
+  description: Set of higher-order components to turn any list into a sortable
+  package_url: https://www.npmjs.com/react-sortable-hoc
+  version: 1.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18551/default_9ee31ff0b8de914bd17073075dcd2fcbf11980a7.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-04-22 00:37:02.000000000 Z
+- name: react-timeago
+  description: A simple Time-Ago component for ReactJs
+  package_url: https://www.npmjs.com/react-timeago
+  version: 4.4.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-04-22 00:37:02.000000000 Z
+- name: redux-devtools-extension
+  description: Wrappers for Redux DevTools Extension
+  package_url: https://www.npmjs.com/redux-devtools-extension
+  version: 2.13.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17039/default_88e2e076a71afdc1de87ad42c80c1606f2689af1.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-02-18 00:38:40.000000000 Z
+- name: rollup-plugin-auto-external
+  description: Rollup plugin to automatically exclude package.json dependencies and
+    peerDependencies from your bundle
+  package_url: https://www.npmjs.com/rollup-plugin-auto-external
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18258/default_9749acc47455bba1b3caf46c87e52ea52580fa90.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-08-04 05:15:58.000000000 Z
+- name: rollup-plugin-sourcemaps
+  description: Rollup plugin for grabbing source maps from sourceMappingURLs
+  package_url: https://www.npmjs.com/rollup-plugin-sourcemaps
+  version: 0.6.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16230/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-08-04 05:15:58.000000000 Z
+- name: rollup-plugin-typescript2
+  description: Seamless integration between Rollup and TypeScript
+  package_url: https://www.npmjs.com/rollup-plugin-typescript2
+  version: 0.30.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16076/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-08-04 05:15:58.000000000 Z
+- name: sanitize-html
+  description: Clean up user-submitted HTML
+  package_url: https://www.npmjs.com/sanitize-html
+  version: 2.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17508/default_1d2902e8f9c84259702671591379572493b9009b.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-04-22 00:37:02.000000000 Z
+- name: tailwindcss
+  description: A utility-first CSS framework for rapidly building custom user interfaces
+  package_url: https://www.npmjs.com/tailwindcss
+  version: 3.2.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-03-15 13:11:40.000000000 Z
+- name: ua-parser-js
+  description: Lightweight JavaScript-based user-agent string parser
+  package_url: https://www.npmjs.com/ua-parser-js
+  version: 0.7.33
+  license: AGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17510/default_e5adc22c59a44962e41dfaec51edeb42c083f2f4.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-05-13 22:02:38.000000000 Z
+- name: util
+  description: Node.js's util module for all engines
+  package_url: https://www.npmjs.com/util
+  version: 0.12.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16507/default_55f3303d620c93eecbee69c43373d484f2be492f.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-08-04 05:15:58.000000000 Z
+- name: aasm
+  description: AASM is a continuation of the acts-as-state-machine rails plugin
+  package_url: https://rubygems.org/aasm
+  version: 5.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19294/default_884a22e9df9e57283c5b613256b2fd8913e1117c.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2021-05-31 05:38:52.000000000 Z
+- name: acts-as-taggable-on
+  description: With ActsAsTaggableOn, you can tag a single model on several contexts,
+    such as skills, interests, and awards
+  package_url: https://rubygems.org/acts-as-taggable-on
+  version: 10.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19310/default_328c11a8ee25b2bcdb614a295e29c3b1b00779cf.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-10-16 19:32:02.000000000 Z
+- name: acts_as_list
+  description: This "acts_as" extension provides the capabilities for sorting and
+    reordering a number of objects in a list
+  package_url: https://rubygems.org/acts_as_list
+  version: 0.9.19
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19204/default_33c8326f97a56642e8765668fc1ba3bfeb911247.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-10-16 19:32:02.000000000 Z
+- name: aws-sdk-s3
+  description: Official AWS Ruby gem for Amazon Simple Storage Service
+  package_url: https://rubygems.org/aws-sdk-s3
+  version: 1.136.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19078/default_4df61286a41b221e05fffb41a1003ffc1a8eaf4e.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2021-08-16 03:24:07.000000000 Z
+- name: browser
+  description: Do some browser detection with Ruby
+  package_url: https://rubygems.org/browser
+  version: 2.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19740/default_dd31b4f280886d69f8a43459d55ecc7f1ae44486.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2021-05-31 05:38:52.000000000 Z
+- name: chronic
+  description: Chronic is a natural language date/time parser written in pure Ruby
+  package_url: https://rubygems.org/chronic
+  version: 0.10.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18990/default_c2edad6777219a9d77730c33c0ffc3c4598d107f.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2021-05-31 05:38:52.000000000 Z
+- name: deep_cloneable
+  description: Extends the functionality of ActiveRecord::Base#dup to perform a deep
+    clone that includes user specified associations
+  package_url: https://rubygems.org/deep_cloneable
+  version: 3.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-10-16 19:32:02.000000000 Z
+- name: devise_invitable
+  description: It adds support for send invitations by email
+  package_url: https://rubygems.org/devise_invitable
+  version: 2.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-10-16 19:32:02.000000000 Z
+- name: doorkeeper
+  description: Doorkeeper is an OAuth 2 provider for Rails and Grape
+  package_url: https://rubygems.org/doorkeeper
+  version: 5.5.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-04-07 15:08:29.000000000 Z
+  vulnerabilities:
+  - name: Doorkeeper Improper Authentication vulnerability
+    cve_id: CVE-2023-34246
+    cve_url: https://github.com/advisories/GHSA-7w2c-w47h-789w
+    detected_date: Jun 13
+    severity: moderate
+    first_patched: 5.6.6
+- name: execjs
+  description: ExecJS lets you run JavaScript code from Ruby
+  package_url: https://rubygems.org/execjs
+  version: 2.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19031/default_5e6f4490e7ced4a026c6f8459237f2bb9d24fbdb.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-04-04 14:26:55.000000000 Z
+- name: factory_bot_rails
+  description: Factory_bot_rails provides integration between factory_bot and rails
+    4.2 or newer
+  package_url: https://rubygems.org/factory_bot_rails
+  version: 6.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19040/default_6307a3eb8ac1c7d425b9163e046ba444d20d3abd.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-10-16 19:32:02.000000000 Z
+- name: faraday
+  description: HTTP/REST API client library
+  package_url: https://rubygems.org/faraday
+  version: 1.10.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18835/default_0e382579c2f0564abd86ba662410379f1d623a9c.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2021-05-31 05:38:52.000000000 Z
+- name: friendly_id
+  description: FriendlyId is the "Swiss Army bulldozer" of slugging and permalink
+    plugins for Active Record
+  package_url: https://rubygems.org/friendly_id
+  version: 5.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19084/default_54dcdbda5f19ac7cce7dfde7a31f57a35d2cdc2f.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2021-05-31 05:38:52.000000000 Z
+- name: geocoder
+  description: Provides object geocoding
+  package_url: https://rubygems.org/geocoder
+  version: 1.8.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19180/default_b505bfc0bd545bd0c4d20c61b61d3072a68d82c9.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2021-05-31 05:38:52.000000000 Z
+- name: geoip
+  description: GeoIP searches a GeoIP database for a given host or IP address
+  package_url: https://rubygems.org/geoip
+  version: 1.6.4
+  license: LGPL-2.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19707/default_d8421da17a8d807adaa0884c1485b097b8d1ac07.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2021-05-31 05:38:52.000000000 Z
+- name: globalize
+  description: Rails I18n de-facto standard library for ActiveRecord model/data translation
+  package_url: https://rubygems.org/globalize
+  version: 6.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19343/default_93c6abaaa9e90097651ff5eacefde67f381dc5a3.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-10-12 17:43:12.000000000 Z
+- name: groupdate
+  description: The simplest way to group temporal data
+  package_url: https://rubygems.org/groupdate
+  version: 6.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-04-11 17:50:29.000000000 Z
+- name: grpc
+  description: Send RPCs from Ruby using GRPC
+  package_url: https://rubygems.org/grpc
+  version: 1.58.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19314/default_30fc2e8699c0a006101bb2e563f4a08a3388433e.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-12-07 05:21:31.000000000 Z
+- name: http
+  description: An easy-to-use client library for making requests from Ruby
+  package_url: https://rubygems.org/http
+  version: 5.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18938/default_9835367d7a13be70dd38d3b7dfa4b8514b31a43d.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-12-07 05:21:31.000000000 Z
+- name: image_processing
+  description: High-level wrapper for processing images for the web with ImageMagick
+    or libvips
+  package_url: https://rubygems.org/image_processing
+  version: 1.12.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-03-06 19:57:21.000000000 Z
+- name: jbuilder
+  description: Create JSON structures via a Builder-style DSL
+  package_url: https://rubygems.org/jbuilder
+  version: 2.11.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19105/default_fca7ffebc4c078263714788a3e4853bf74bde297.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2021-05-31 05:38:52.000000000 Z
+- name: jwt
+  description: A pure ruby implementation of the RFC 7519 OAuth JSON Web Token
+  package_url: https://rubygems.org/jwt
+  version: 2.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18991/default_e5e3569d4beb5d51f9ce87c88e8b44a2308e087b.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson
+  last_updated_on: 2018-05-29 06:25:51.000000000 Z
+- name: kaminari
+  description: Kaminari is a Scope &amp;amp; Engine based
+  package_url: https://rubygems.org/kaminari
+  version: 1.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18941/default_ec64e7b00489c2b012b637eba2526e31e442c25b.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2021-05-31 05:38:52.000000000 Z
+- name: listen
+  description: The Listen gem listens to file modifications and notifies you about
+    the changes
+  package_url: https://rubygems.org/listen
+  version: 3.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18942/default_a51418802dbfb428c729400211798b5046fe4140.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-10-12 17:43:12.000000000 Z
+- name: mini_magick
+  description: Manipulate images with minimal use of memory via ImageMagick / GraphicsMagick
+  package_url: https://rubygems.org/mini_magick
+  version: 4.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18955/default_89409eddf4c844af508d7b2a0c2436ec652e1120.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-12-06 15:28:57.000000000 Z
+- name: nokogiri
+  description: Nokogiri
+  package_url: https://rubygems.org/nokogiri
+  version: 1.15.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18823/default_b8fbb83e23c963442e15398c5b56262cc6267d6f.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-12-07 05:21:31.000000000 Z
+- name: oauth
+  description: OAuth Core Ruby implementation
+  package_url: https://rubygems.org/oauth
+  version: 0.5.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18933/default_af839c8f23de5fe3e744440232923d0012d57703.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2021-05-31 05:38:52.000000000 Z
+- name: omniauth-oauth2
+  description: An abstract OAuth2 strategy for OmniAuth
+  package_url: https://rubygems.org/omniauth-oauth2
+  version: 1.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18909/default_6011c3e13c0feeff577120981a21a5968e50756a.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2021-05-31 05:38:52.000000000 Z
+- name: pg
+  description: Pg is the Ruby interface to the {PostgreSQL RDBMS}[http://www.postgresql.org/]
+  package_url: https://rubygems.org/pg
+  version: 1.5.4
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18855/default_d343d9a7c573fa5dcbeb4d3c43d2ffe4afa82cc1.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson
+  last_updated_on: 2018-05-29 06:25:51.000000000 Z
+- name: pg_search
+  description: PgSearch builds Active Record named scopes that take advantage of PostgreSQL's
+    full text search
+  package_url: https://rubygems.org/pg_search
+  version: 2.3.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-05-17 04:10:11.000000000 Z
+- name: php-serialize
+  description: 'This module provides two methods: PHP.serialize'
+  package_url: https://rubygems.org/php-serialize
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-10-12 17:43:12.000000000 Z
+- name: pry
+  description: An IRB alternative and runtime developer console
+  package_url: https://rubygems.org/pry
+  version: 0.14.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18815/default_f582e4648f4682adb72d2b201218cda7f8e894ac.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson
+  last_updated_on: 2018-05-29 06:25:51.000000000 Z
+- name: rack-cors
+  description: Middleware that will make Rack-based apps CORS compatible
+  package_url: https://rubygems.org/rack-cors
+  version: 1.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19489/default_235e01dd950d1f80c14beead28dc8c06a1dbf108.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-12-06 15:28:57.000000000 Z
+- name: ransack
+  description: Ransack is the successor to the MetaSearch gem
+  package_url: https://rubygems.org/ransack
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19208/default_154ae376fa454174ed3c89ef3755e1dc43d22fc2.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2021-05-31 05:38:52.000000000 Z
+- name: redis-namespace
+  description: Adds a Redis::Namespace class which can be used to namespace calls
+    to Redis
+  package_url: https://rubygems.org/redis-namespace
+  version: 1.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19048/default_f59dec556f76ef878ccb1b8ccfe909880fad26c9.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-06-10 03:16:38.000000000 Z
+- name: redis-objects
+  description: Map Redis types directly to Ruby objects
+  package_url: https://rubygems.org/redis-objects
+  version: 1.7.0
+  license: Artistic-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19620/default_ad0710c65b106932707389deb3b2e0b93a1ef7b6.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-06-10 03:16:38.000000000 Z
+- name: roadie
+  description: Roadie tries to make sending HTML emails a little less painful by inlining
+    stylesheets and rewriting relative URLs for you
+  package_url: https://rubygems.org/roadie
+  version: 5.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-10-12 17:43:12.000000000 Z
+- name: roo
+  description: Roo can access the contents of various spreadsheet files
+  package_url: https://rubygems.org/roo
+  version: 2.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19142/default_89b18dd7f58bd6320e750c49b3853e03c4c1e54c.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson
+  last_updated_on: 2018-05-29 06:25:51.000000000 Z
+- name: rspec-rails
+  description: Rspec-rails is a testing framework for Rails 3+
+  package_url: https://rubygems.org/rspec-rails
+  version: 6.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18830/default_ba8d7756589e5fc0164687950e3f091b32554546.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-10-16 19:32:02.000000000 Z
+- name: rubocop-performance
+  description: A collection of RuboCop cops to check for performance optimizations
+    in Ruby code
+  package_url: https://rubygems.org/rubocop-performance
+  version: 1.19.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19003/default_ed0106f3a65a9fdb4ffde124a531663be2de70ba.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-12-07 05:21:31.000000000 Z
+- name: rubocop-rails
+  description: Automatic Rails code style checking tool
+  package_url: https://rubygems.org/rubocop-rails
+  version: 2.21.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19270/default_67289672b0f514dd92f3c786eb2cf0a39b0db10f.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-10-16 19:32:02.000000000 Z
+- name: rubocop-rspec
+  description: Code style checking for RSpec files
+  package_url: https://rubygems.org/rubocop-rspec
+  version: 2.24.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18892/default_b7088ec778267614a78a5a472c67252ec1721d10.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2021-05-31 05:38:52.000000000 Z
+- name: ruby-oembed
+  description: An oEmbed consumer library written in Ruby, letting you easily get
+    embeddable HTML representations of supported web pages, based on their URLs
+  package_url: https://rubygems.org/ruby-oembed
+  version: 0.16.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-10-16 19:32:02.000000000 Z
+- name: sassc
+  description: Use libsass with Ruby!
+  package_url: https://rubygems.org/sassc
+  version: 2.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19530/default_613f4a81e068e079bd9a85743fffda50ec58cc62.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2022-04-04 14:26:55.000000000 Z
+- name: searchkick
+  description: Intelligent search made easy with Rails and Elasticsearch
+  package_url: https://rubygems.org/searchkick
+  version: 5.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-05-17 04:10:11.000000000 Z
+- name: shoulda
+  description: Making tests easy on the fingers and eyes
+  package_url: https://rubygems.org/shoulda
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18837/default_669e0ebb464c584b580cfec09e646fddff70c02a.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2021-05-31 05:38:52.000000000 Z
+- name: shoulda-matchers
+  description: Shoulda Matchers provides RSpec- and Minitest-compatible one-liners
+    to test common Rails functionality that
+  package_url: https://rubygems.org/shoulda-matchers
+  version: 4.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18912/default_f78521c51e3a38a8810251cfa8909b18ae0b40a8.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2021-05-31 05:38:52.000000000 Z
+- name: spring
+  description: Preloads your application so things like console
+  package_url: https://rubygems.org/spring
+  version: 4.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19382/default_b8d34ca81aebc76c0b551b666a1d21df7e697544.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2021-05-31 05:38:52.000000000 Z
+- name: twilio-ruby
+  description: The official library for communicating with the Twilio REST API
+  package_url: https://rubygems.org/twilio-ruby
+  version: 5.58.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19357/default_2fbdc0f76c77ecb297e28f25874d22305f041b23.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2023-10-16 19:32:02.000000000 Z
+- name: web-console
+  description: A debugging tool for your Ruby on Rails applications
+  package_url: https://rubygems.org/web-console
+  version: 4.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2021-05-31 05:38:52.000000000 Z
+- name: webmock
+  description: WebMock allows stubbing HTTP requests and setting expectations on HTTP
+    requests
+  package_url: https://rubygems.org/webmock
+  version: 3.19.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18824/default_6564ae059af6c4ea7065fd2329370c7a05341cf8.png
+  detection_source_url: https://github.com/dhqcz/chaskiq/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Miguel Michelson Martinez
+  last_updated_on: 2021-05-31 05:38:52.000000000 Z
