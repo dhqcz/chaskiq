@@ -2,7 +2,7 @@ repo_name: dhqcz/chaskiq
 report_id: 619fea9ca9a3f0956ecaff7cd2e6bd5d
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-31T14:20:49+00:00'
+timestamp: '2024-02-29T19:47:41+00:00'
 requested_by: michelson
 provider: github
 branch: main
@@ -588,7 +588,7 @@ tools:
   last_updated_by: Miguel Michelson Martinez
   last_updated_on: 2022-08-04 05:15:58.000000000 Z
 - name: Poli
-  description: 'An easy-to-use SQL reporting application '
+  description: An easy-to-use SQL reporting application
   website_url: https://github.com/shzlw/poli
   license: MIT
   open_source: true
@@ -679,7 +679,7 @@ tools:
   last_updated_by: Miguel Michelson Martinez
   last_updated_on: 2022-02-08 02:42:18.000000000 Z
 - name: Gravatar
-  description: 'A service for providing globally unique avatars '
+  description: A service for providing globally unique avatars
   website_url: https://gravatar.com
   open_source: false
   hosted_saas: false
@@ -1803,6 +1803,13 @@ tools:
   detection_source: Gemfile
   last_updated_by: Miguel Michelson Martinez
   last_updated_on: 2023-10-16 19:32:02.000000000 Z
+  vulnerabilities:
+  - name: Possibility to circumvent the invitation token expiry period
+    cve_id: CVE-2023-48220
+    cve_url: https://github.com/advisories/GHSA-w3q8-m492-4pwp
+    detected_date: Feb 21
+    severity: moderate
+    first_patched: 2.0.9
 - name: doorkeeper
   description: Doorkeeper is an OAuth 2 provider for Rails and Grape
   package_url: https://rubygems.org/doorkeeper
@@ -2066,6 +2073,13 @@ tools:
   detection_source: Gemfile
   last_updated_by: Miguel Michelson Martinez
   last_updated_on: 2022-12-07 05:21:31.000000000 Z
+  vulnerabilities:
+  - name: Nokogiri update packaged libxml2 to v2.12.5 to resolve CVE-2024-25062
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-xc9x-jj77-9p9j
+    detected_date: Feb 6
+    severity: moderate
+    first_patched: 1.16.2
 - name: oauth
   description: OAuth Core Ruby implementation
   package_url: https://rubygems.org/oauth
@@ -2164,6 +2178,13 @@ tools:
   detection_source: Gemfile
   last_updated_by: Miguel Michelson Martinez
   last_updated_on: 2022-12-06 15:28:57.000000000 Z
+  vulnerabilities:
+  - name: Rack CORS Middleware has Insecure File Permissions
+    cve_id: CVE-2024-27456
+    cve_url: https://github.com/advisories/GHSA-785g-282q-pwvx
+    detected_date: Feb 27
+    severity: moderate
+    first_patched: 
 - name: ransack
   description: Ransack is the successor to the MetaSearch gem
   package_url: https://rubygems.org/ransack
